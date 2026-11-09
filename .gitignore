@@ -2,3 +2,11 @@
 .env
 __pycache__/
 *.pyc
+results_*.txt
+eval_baseline*.txt
+eval_baseline_err.txt
+show_*.txt
+show8_*.txt
+show_baseline_*.txt
+show_h*.txt
+results_k5.txt
