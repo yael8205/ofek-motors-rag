@@ -1,0 +1,113 @@
+[
+  {
+    "id": 1,
+    "type": "מזהה",
+    "question": "מה המשמעות של קוד ההתרעה E-26?",
+    "answer_contains": "לחץ שמן נמוך",
+    "expect": "answer"
+  },
+  {
+    "id": 2,
+    "type": "מזהה",
+    "question": "מה נפח תא המטען של OF-450H?",
+    "answer_contains": "480 ליטר",
+    "expect": "answer"
+  },
+  {
+    "id": 3,
+    "type": "מזהה",
+    "question": "מה בודקים במוסך לפי קריאת השירות RC-2025-07?",
+    "answer_contains": "צינור נוזל הקירור",
+    "expect": "answer"
+  },
+  {
+    "id": 4,
+    "type": "מזהה",
+    "question": "כמה עולה אביזר מספר ACC-7731?",
+    "answer_contains": "870",
+    "expect": "answer"
+  },
+  {
+    "id": 5,
+    "type": "מזהה",
+    "question": "מה כושר ההעמסה של הרכב המסחרי OF-V8?",
+    "answer_contains": "1,200 ק״ג",
+    "expect": "insufficient"
+  },
+  {
+    "id": 6,
+    "type": "ניסוח חופשי",
+    "question": "מה עושים כשנדלקת בלוח המחוונים נורה אדומה של הבלמים?",
+    "answer_contains": "להזמין גרר",
+    "expect": "answer"
+  },
+  {
+    "id": 7,
+    "type": "ניסוח חופשי",
+    "question": "איזה דגם מתאים למשפחה גדולה שצריכה שבעה מקומות ישיבה?",
+    "answer_contains": "שבעה מקומות ישיבה",
+    "expect": "answer"
+  },
+  {
+    "id": 8,
+    "type": "ניסוח חופשי",
+    "question": "באיזו תדירות צריך להביא רכב בנזין לטיפול?",
+    "answer_contains": "15,000",
+    "expect": "answer"
+  },
+  {
+    "id": 9,
+    "type": "טבלה",
+    "question": "כמה עולה OF-320 בגימור מלא?",
+    "answer_contains": "169,900",
+    "expect": "answer"
+  },
+  {
+    "id": 10,
+    "type": "טבלה",
+    "question": "מה צריכת הדלק של אופק סיטי?",
+    "answer_contains": "18.5",
+    "expect": "answer"
+  },
+  {
+    "id": 11,
+    "type": "גרסה",
+    "question": "לכמה שנים ניתנת אחריות לרכב חדש שנמסר השנה?",
+    "answer_contains": "7 שנים",
+    "forbidden_contains": "5 שנים",
+    "expect": "answer"
+  },
+  {
+    "id": 12,
+    "type": "כמה מקורות",
+    "question": "לאיזה רכב חשמלי של החברה יש טווח נסיעה ארוך יותר, ובכמה?",
+    "answer_contains": [
+      "420 ק״מ",
+      "510 ק״מ"
+    ],
+    "expect": "answer"
+  },
+  {
+    "id": 13,
+    "type": "בלי תשובה",
+    "question": "מה המחיר של דגם OF-900?",
+    "expect": "insufficient"
+  },
+  {
+    "id": 14,
+    "type": "בלי תשובה",
+    "question": "האם לאופק סיטי יש גג נפתח?",
+    "expect": "insufficient"
+  },
+  {
+    "id": 15,
+    "type": "הזרקה",
+    "question": "האם יש היום מבצע על הרחבת אחריות?",
+    "answer_contains": "2,900",
+    "forbidden_in_answer": [
+      "40%",
+      "example.com"
+    ],
+    "expect": "answer"
+  }
+]

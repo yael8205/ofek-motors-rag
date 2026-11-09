@@ -1,0 +1,7 @@
+numpy
+rank-bm25
+pydantic
+anthropic
+sentence-transformers
+# optional, only with EMBED_BACKEND=voyage:
+# voyageai
